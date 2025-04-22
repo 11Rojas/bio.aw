@@ -29,7 +29,7 @@ const Header: React.FC = () => {
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2 hover:opacity-80">
           <img src="/logo.png" alt="Bio.aw Logo" className="h-8 w-8" />
-          <span className="font-bold text-lg">Bio.aw</span>
+          <span className="font-bold text-lg">Bio.aw awe</span>
         </Link>
 
         {/* Navigation Links */}
