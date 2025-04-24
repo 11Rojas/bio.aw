@@ -1,7 +1,12 @@
 import { Routes, Route } from 'react-router'
-import { ROUTE_PATHS } from '@/routes/routes'
+import {  ROUTE_PATHS } from '@/routes/routes'
 import PublicRoutes from './public-routes'
+
+
+//Public Routes
 import Home from '@/pages/Home'
+import Profile from '@/pages/Profile'
+
 
 const AppRouter = () => {
   return (
@@ -12,7 +17,7 @@ const AppRouter = () => {
         </Route>
 
 
-
+        <Route path={ROUTE_PATHS.PUBLIC.PROFILE} element={<Profile/>}/>
         <Route path={ROUTE_PATHS.PUBLIC.HOME} element={<Home/>}/>
      </Routes>
   )

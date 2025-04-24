@@ -14,6 +14,9 @@ export const ROUTE_PATHS = {
       PRIVACY: '/privacy',
       TERMS: '/terms',
       ERROR: '/error/:code?', // El ? indica que es opcional
+      PRICING: "/pricing",
+      CONTACT: '/contact',
+      PROFILE: '/:id'
     },
     PRIVATE: {
       DASHBOARD: '/dashboard',
