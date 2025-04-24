@@ -17,9 +17,9 @@ const Header: React.FC = () => {
     ];
 
     return (
-        <header className="sticky top-0 z-50 w-full md:p-8 p-4 flex justify-center">
-            <nav className=" flex justify-center px-4 py-3  bg-gradient-to-br  w-full md:w-[50%] ">
-                <div className="w-full max-w-6xl flex justify-between items-center px-1 py-3">
+        <header className="sticky top-0 z-50 w-full md:p-8  flex justify-center">
+            <nav className=" flex justify-center px-4 py-3  bg-gradient-to-br  w-full md:w-[50%] bg-black/30 opacity-100 ">
+                <div className="w-full max-w-6xl flex justify-between items-center px-1 py-3 ">
                     {/* Logo */}
                     <Link
                         to="/"

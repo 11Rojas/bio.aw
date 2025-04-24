@@ -6,7 +6,7 @@
 export const ROUTE_PATHS = {
     PUBLIC: {
       HOME: '/',
-      LOGIN: '/login',
+      LOGIN: '/signin',
       REGISTER: '/register',
       FORGOT_PASSWORD: '/forgot-password',
       RESET_PASSWORD: '/reset-password/:token',
